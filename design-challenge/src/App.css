@@ -6,14 +6,32 @@
   background-clip:border-box;
   background-size: cover;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content:center;
   
 }
+.Splash .col {
+  padding: 0px;
+}
 
-.Splash h1 {
-  color:#fff;
-  background-color:#ff781f;
+.CenterFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Splash .Bared {
+  color: #fff;
+  background-color: rgba(255,120,32,.9);
+  padding: 25px;
+  text-align: center;
+  min-height: 100px;
+  width: 100%;
+  display: block;
+}
+
+.Splash button {
+  margin: 10px;
 }
 
 .whiteBg {
@@ -22,7 +40,7 @@
     border-radius: 4px;
     position: relative;
     overflow: hidden;
-  padding: 15px 20px;
+  padding: 15px 0px;
     margin: 20px;
     flex: 1 1;
     min-height: 400px;
@@ -34,5 +52,11 @@
 }
 
 .bkGrey {
-  background-color: #24292c;
+  background-color: #515151;
+}
+
+.WhitePLan {
+  padding: 20px;
+  color: #fff;
+  text-align: center;
 }
