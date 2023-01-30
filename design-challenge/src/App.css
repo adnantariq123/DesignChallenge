@@ -60,3 +60,14 @@
   color: #fff;
   text-align: center;
 }
+
+.dark {
+  color: #333;
+}
+
+.Feat {
+  border-bottom: 1px solid #333;
+  width:100%;
+  color: #333;
+  padding-bottom: 10px;
+}

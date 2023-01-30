@@ -32,8 +32,9 @@ function App() {
               <NavDropdown.Item href="#action/3.3">Community</NavDropdown.Item>
 
             </NavDropdown>
-            <Nav.Link href="#home">Service</Nav.Link>
-            <Nav.Link href="#link">Solutions</Nav.Link>
+            <Nav.Link href="#Service">Service</Nav.Link>
+            <Nav.Link href="#Service">Service</Nav.Link>
+            <Nav.Link href="#Team">Team Members</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -66,7 +67,7 @@ function App() {
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">
-        <Accordion.Header>How we can help</Accordion.Header>
+        <Accordion.Header>What we do</Accordion.Header>
         <Accordion.Body>
           Duis aute irure dolor in
           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
@@ -107,8 +108,15 @@ function App() {
     </Row>
 
     <Row>
-    <Col sm={6}></Col>
-    
+    <Col sm={6} className="WhitePLan">
+      <h3 className='Feat'>120 Team Members</h3>
+      <h3 className='Feat'>7000+ IT Placements</h3>
+      <h3 className='Feat'>400 Thrilled Clients</h3>
+    </Col>
+    <Col sm={6} className="WhitePLan CenterFlex">
+      <span className='dark'>We seek clients who share our values, including our deep commitment to the communities we serve.  OP's team of outstanding professionals is proud to support more than 15 Fortune 500|1000 clients across the United States.</span>
+    </Col>
+
 
     </Row>
     </Container>
